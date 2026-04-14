@@ -18,14 +18,14 @@ for (var i = 0; i < MultiDimensionalArr.length; i++){
 
 // ANSWER #4
 
-    // let num = +prompt("Enter the number to show its multiplication")
-    // let user = +prompt("Enter lenght of multiplication table")
+    let num = +prompt("Enter the number to show its multiplication")
+    let user = +prompt("Enter lenght of multiplication table")
 
-    // for(var i=1; i <= user; i++){
-    //     document.writeln(
-    //         `${num} x ${i} = ${num*i} <br>`
-    //     )
-    // }
+    for(var i=1; i <= user; i++){
+        document.writeln(
+            `${num} x ${i} = ${num*i} <br>`
+        )
+    }
 
 // ANSWER #5
 
@@ -66,17 +66,17 @@ for (var i = 0; i < MultiDimensionalArr.length; i++){
 // ANSWER #7
 
     var A = ["cake", "apple pie", "cookie", "chips", "patties"]
-    var user = prompt("Welcome to AntiBanti Bakery. What do you like to order sir/ma'am?")
+    var user1 = prompt("Welcome to AntiBanti Bakery. What do you like to order sir/ma'am?")
     var flag = false
 
     for(var i = 0; i < A.length; i++){
-        if(user == A[i]){
+        if(user1 == A[i]){
             flag = true
-            console.log(user + " is available in our bakery")
+            console.log(user1 + " is available in our bakery")
         }
     }
     if(flag == false){
-        console.log("we are sorry. " + user + " is not available in our bakery.")
+        console.log("we are sorry. " + user1 + " is not available in our bakery.")
     }
 
 // ANSWER #8
